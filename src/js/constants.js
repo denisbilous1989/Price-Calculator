@@ -1,0 +1,10 @@
+export const backblazeStorage = 0.005;
+export const backblazeTransfer = 0.01;
+export const bunnyStorageHdd = 0.01;
+export const bunnyStorageSdd = 0.02;
+export const bunnyTransfer = 0.01;
+export const scalewayStorageMulti = 0.06;
+export const scalewayStorageSingle = 0.03;
+export const scalewayTransfer = 0.02;
+export const vultrStorage = 0.01;
+export const vultrTransfer = 0.01;

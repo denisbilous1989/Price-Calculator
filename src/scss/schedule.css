@@ -1,0 +1,49 @@
+.schedule_section {
+  display: flex;
+  justify-content: space-start;
+  align-items: center;
+}
+.schedule_section .companies_list {
+  margin-right: 50px;
+}
+.schedule_section .companies_list .company_item .company_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedule_section .companies_list .company_item .company_name p {
+  vertical-align: middle;
+  margin: 10px 15px;
+}
+.schedule_section .companies_list .company_item .company_name .img {
+  margin: 10px 15px;
+  max-width: 75px;
+  max-height: 25px;
+  border: 1px solid black;
+  background-color: wheat;
+}
+.schedule_section .companies_list .company_item .select {
+  margin: 0 30px;
+}
+.schedule_section .companies_list .company_item .select input[type=radio] {
+  width: 30px;
+  height: 10px;
+}
+.schedule_section .schedule {
+  border-left: 5px solid black;
+}
+.schedule_section .schedule .schedule_item {
+  margin: 35px 15px;
+}
+.schedule_section .schedule .schedule_item .schedule_element {
+  background: grey;
+  width: 0%;
+  height: 20px;
+  display: inline-block;
+}
+.schedule_section .schedule .schedule_item .bunny_ssd {
+  display: none;
+}
+.schedule_section .schedule .schedule_item .scaleway_single {
+  display: none;
+}/*# sourceMappingURL=schedule.css.map */

@@ -1,0 +1,30 @@
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
